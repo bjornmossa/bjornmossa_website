@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+:root {
+  --bg-color: #d7d7d7;
+  --fg-color: #0D160B;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  position: absolute;
+}
+
+html, body {
+  margin: 0;
+  background: var(--bg-color);
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 14pt;
+  color: var(--fg-color);
+}
+
+.logo {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#clipped {
+  clip-path: url("#logoClip");
+  width: 250px;
+  height: 270px;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: max-content auto;
+  grid-template-rows: repeat(2, auto);
+  gap: 1rem;
+  justify-items: center;
+}
+
+nav {
+  display: grid;
+  gap: 1rem;
+  justify-items: center;
+  align-content: center;
+  grid-template-columns: repeat(3, max-content);
+  grid-column: 2;
+  grid-row: 1;
+}
+
+a {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  text-shadow: #f92727 0 0.05rem, #19c9ff 0 -0.05rem;
+}
+
+a:active {
+  color: inherit;
+}
+
+a:focus {
+  color: inherit;
+}
