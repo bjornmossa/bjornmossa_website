@@ -78,3 +78,7 @@ a:active {
 a:focus {
   color: inherit;
 }
+
+.page:target {
+  background: red;
+}
