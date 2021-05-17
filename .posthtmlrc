@@ -3,7 +3,8 @@
     "posthtml-doctype": {
       "doctype": "HTML 5"
     },
-    "posthtml-inline-css": {
+    "posthtml-inline-assets": {
+      "cwd": "./src"
     },
     "posthtml-include": {
     }
