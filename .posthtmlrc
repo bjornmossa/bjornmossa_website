@@ -6,8 +6,6 @@
     "posthtml-inline-css": {
     },
     "posthtml-include": {
-    },
-    "posthtml-favicons": {
     }
   }
 }
