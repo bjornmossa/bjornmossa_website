@@ -1,0 +1,27 @@
+{
+  "name": "bjornmossa_website",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build src/index.html --dist-dir www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-bjornmossa:bjornmossa/bjornmossa_website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nord": "^0.2.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2",
+    "posthtml-doctype": "^1.1.1",
+    "posthtml-favicons": "^1.4.0",
+    "posthtml-include": "^1.7.1",
+    "posthtml-inline-css": "^1.2.3"
+  }
+}

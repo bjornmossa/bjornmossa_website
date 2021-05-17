@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma&display=swap');
+@import url('./nord.css');
+@import url('./typo.css');
+
+:root {  
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  position: absolute;
+}
+
+html, body {
+  background: var(--nord6);
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  grid-template-columns: min-content auto;
+  height: 100%;
+  line-height: 1.75;
+  margin: 0;
+}
+
+body {
+  color: var(--nord0);
+  display: grid;
+  display: grid;
+  font-size: 18px;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content auto;
+}
+
+.logo {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#clipped {
+  clip-path: url("#logoClip");
+}
+
+nav {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, max-content);
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+nav h1 {
+  margin: unset;
+}
+
+nav .links {
+  align-items: center;
+  display: grid;
+  font-size: x-large;
+  grid-auto-flow: column;
+  grid-gap: 1rem;
+  justify-items: center;
+}
+
+a {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  text-shadow: var(--nord11) 0 0.05rem, var(--nord8) 0 -0.05rem;
+}
+
+a:active {
+  color: inherit;
+}
+
+a:focus {
+  color: inherit;
+}
+
+#main {
+  align-content: center;
+  display: grid;
+  grid-gap: 4rem;
+  grid-template-columns: repeat(2, minmax(400px, 25%));
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.about_text {
+  text-align: justify;
+}
+
+.album_notice {
+  display: inline-block;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.social_links {
+  grid-column: 1/-1;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 1rem;
+  justify-content: center;
+}
+
+.social_links > a {
+  min-width: 32px;
+}
+
+.contact-form {
+  display: grid;
+  grid-gap: 1rem;
+  grid-column: 1/-1;
+}
+
+.contact-form > button {
+  max-width: max-content;
+  padding: 0.25rem 1rem;
+  background: var(--nord0);
+  border: 1px solid var(--nord1);
+  color: var(--nord5);
+  border-radius: 0.25rem;
+}
