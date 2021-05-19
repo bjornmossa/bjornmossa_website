@@ -5,7 +5,9 @@
     <link href="styles.css" rel="stylesheet"/>
   </head>
   <body>
-    <include src="src/header.html"></include>
+    <module href="./src/header.html">
+      <a href="/">home</a>
+    </module>
     <section id="main">
       <form class="contact-form" name="contact" method="POST" data-netlify="true">
         <label for="name">Name:</label>

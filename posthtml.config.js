@@ -6,9 +6,7 @@ module.exports = {
     "posthtml-inline-assets": {
       cwd: "./src"
     },
-    "posthtml-include": {},
     "posthtml-modules": {
-      root: "src",
     },
   },
 };
