@@ -45,7 +45,7 @@ body {
   clip-path: url("#logoClip");
 }
 
-nav {
+header {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(2, max-content);
@@ -53,11 +53,11 @@ nav {
   padding: 2rem;
 }
 
-nav h1 {
+header h1 {
   margin: unset;
 }
 
-nav .links {
+nav {
   align-items: center;
   display: grid;
   font-size: x-large;
